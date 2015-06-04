@@ -1,0 +1,163 @@
+object Form1: TForm1
+  Left = 344
+  Height = 379
+  Top = 0
+  Width = 810
+  Caption = 'INTERPOLACJA FUNKCJAMI SKLEJANYMI STOPNIA TRZECIEGO'
+  ClientHeight = 379
+  ClientWidth = 810
+  Color = 7624382
+  OnCreate = FormCreate
+  LCLVersion = '1.4.0.4'
+  object Button1: TButton
+    Left = 56
+    Height = 68
+    Top = 104
+    Width = 144
+    Caption = 'Zatwierdź ilość węzłów'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 56
+    Height = 25
+    Top = 56
+    Width = 144
+    TabOrder = 1
+  end
+  object Edit2: TEdit
+    Left = 61
+    Height = 25
+    Top = 192
+    Width = 139
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 59
+    Height = 15
+    Top = 32
+    Width = 99
+    Caption = 'ILOŚĆ WĘZŁÓW:'
+    ParentColor = False
+  end
+  object Edit3: TEdit
+    Left = 240
+    Height = 25
+    Top = 40
+    Width = 80
+    TabOrder = 3
+    Visible = False
+  end
+  object Label2: TLabel
+    Left = 240
+    Height = 15
+    Top = 16
+    Width = 40
+    Caption = 'Label2'
+    ParentColor = False
+  end
+  object Button2: TButton
+    Left = 240
+    Height = 57
+    Top = 80
+    Width = 224
+    Caption = 'Zatwierdź węzeł i wartość'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+  object Edit4: TEdit
+    Left = 384
+    Height = 25
+    Top = 40
+    Width = 80
+    TabOrder = 5
+  end
+  object Label3: TLabel
+    Left = 416
+    Height = 15
+    Top = 16
+    Width = 40
+    Caption = 'Label3'
+    ParentColor = False
+  end
+  object ListBox1: TListBox
+    Left = 240
+    Height = 80
+    Top = 176
+    Width = 192
+    ItemHeight = 0
+    ScrollWidth = 190
+    TabOrder = 6
+    TopIndex = -1
+    Visible = False
+  end
+  object Label4: TLabel
+    Left = 296
+    Height = 15
+    Top = 152
+    Width = 94
+    Caption = 'węzeł->wartość'
+    ParentColor = False
+    Visible = False
+  end
+  object Edit5: TEdit
+    Left = 544
+    Height = 25
+    Top = 40
+    Width = 256
+    TabOrder = 7
+  end
+  object Edit6: TEdit
+    Left = 544
+    Height = 25
+    Top = 80
+    Width = 256
+    OnChange = Edit6Change
+    TabOrder = 8
+  end
+  object Edit7: TEdit
+    Left = 544
+    Height = 25
+    Top = 120
+    Width = 256
+    TabOrder = 9
+  end
+  object ListBox2: TListBox
+    Left = 544
+    Height = 88
+    Top = 176
+    Width = 256
+    ItemHeight = 0
+    ScrollWidth = 254
+    TabOrder = 10
+    TopIndex = -1
+  end
+  object ListBox3: TListBox
+    Left = 240
+    Height = 88
+    Top = 280
+    Width = 560
+    ItemHeight = 0
+    ScrollWidth = 558
+    TabOrder = 11
+    TopIndex = -1
+  end
+  object RadioButton1: TRadioButton
+    Left = 35
+    Height = 22
+    Top = 249
+    Width = 139
+    Caption = 'Zwykła arytmetyka'
+    Checked = True
+    TabOrder = 12
+    TabStop = True
+  end
+  object RadioButton2: TRadioButton
+    Left = 35
+    Height = 22
+    Top = 286
+    Width = 175
+    Caption = 'Arytmetyka przedziałowa'
+    TabOrder = 13
+  end
+end
